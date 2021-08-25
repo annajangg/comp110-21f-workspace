@@ -4,4 +4,4 @@ __author__ = "73411065"
 
 print("Hello, world.")
 print("Hello, beautiful world.")
-print("This is a very cool world")
+print("This is such a cool world")
