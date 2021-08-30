@@ -6,7 +6,7 @@ print("Wow, " + user_name + ", you rock!")
 print(user_name + " have a great day!")
 
 
-"""EXample diagram problem."""
+"""Example diagram problem."""
 
 age: int = int(input("How old are you? "))
 year: int = int(input("What year is it? "))
