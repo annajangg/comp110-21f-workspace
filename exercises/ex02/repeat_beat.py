@@ -16,5 +16,7 @@ else:
     while i < rep:
         final_beat = final_beat + " " + beat
         i = i + 1
-
 print(final_beat)
+
+# could also define a variable as "" and just add onto that
+# also could use while loop in the if statement
