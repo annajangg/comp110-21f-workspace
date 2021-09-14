@@ -11,9 +11,9 @@ while i < len(word):
     j: int = i + 1
     while j < len(word):
         if word[j] == char:
-            dup = bool = True
-        else:
-            dup = dup
+            dup = True
+        # else:
+            # dup = False
         j = j + 1
     i = i + 1
 

@@ -12,8 +12,8 @@ count: int = 0
 while i < len(word):
     if letter == word[i]:
         count = count + 1
-    else:
-        pass
+    # else:
+        # pass
     i = i + 1
 
 print("Count: " + str(count))
