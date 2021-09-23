@@ -58,6 +58,7 @@ def greet() -> None:
 
 
 def adventure() -> None:
+    """Adventure to the Kingdom of Wisdom."""
     global points
     points = points + 1
     free: int
@@ -79,7 +80,7 @@ def adventure() -> None:
     print("...")
     if given == 1:
         import random
-        free: int = int(random.randint(1, 10))
+        free = int(random.randint(1, 10))
         points = points + free
         print(f"[Now you have {points} coins.]")
         print("...")
@@ -92,6 +93,7 @@ def adventure() -> None:
 
 
 def wasteland(c: int) -> int:
+    """Adventure to the Doldrums."""
     global points
     print("...")
     print("You hop in the car and drive slowly up to the tollbooth. You deposit your coin and...")
@@ -138,6 +140,7 @@ def wasteland(c: int) -> int:
 
 
 def boring() -> None:
+    """No Adventure."""
     print("...")
     global points
     print("You pack the package back up. You lug the box to your front door. You leave a note for the mailman that reads:")
