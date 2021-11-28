@@ -36,7 +36,7 @@ class Point:
             raise IndexError
 
 
-a: Point = Point(1.0, 2.0)
+a: Point = Point(1.0, 2.0) 
 b: Point = a * 2.0
 c: Point = a + b
 print(f"a: {a}")
